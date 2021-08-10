@@ -83,7 +83,7 @@ h2 {
       grid-template-columns: none;
       grid-template-rows: minmax(auto, 20rem) 1fr; } }
   .article .img-holder {
-    background: center/cover no-repeat url(../images/drawers.jpg);
+    background: left/cover no-repeat url(../images/drawers.jpg);
     border-radius: 0.85rem 0 0 0.85rem; }
     @media (max-width: 48em) {
       .article .img-holder {
