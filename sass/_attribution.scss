@@ -1,0 +1,14 @@
+.attribution {
+  color: $color-title;
+  font-size: 1.2rem;
+  text-align: center;
+
+  @include respond(mobile-m) {
+    font-size: 1.4rem;
+  }
+
+  a {
+    color: $color-text;
+    text-decoration: none;
+  }
+}

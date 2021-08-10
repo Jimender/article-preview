@@ -1,0 +1,48 @@
+h1 {
+  font-size: 2.1rem;
+  color: $color-title;
+  line-height: 2.9rem;
+
+  @include respond(mobile-m) {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    letter-spacing: 0.2px;
+  }
+}
+
+h2,
+.name,
+.date,
+.article__share-list {
+  font-size: 1.3rem;
+  letter-spacing: 0.2px;
+}
+
+h2 {
+  color: $color-text;
+  font-weight: 500;
+  line-height: 2rem;
+  margin-top: 1.2rem;
+  @include respond(mobile-m) {
+    font-size: 1.29rem;
+    // letter-spacing: 0.1px;
+  }
+}
+
+.name {
+  color: $color-title;
+  font-weight: 700;
+}
+
+.date {
+  color: $color-date;
+}
+
+.article__share-list {
+  & > li {
+    letter-spacing: 0.5rem;
+  }
+  & i {
+    font-size: 2.1rem;
+  }
+}
